@@ -15,6 +15,8 @@ h2 + p
     border-bottom: 1px solid grey
 
 }
+
+/* slide 8 */
 li a:link
 
 {
@@ -37,7 +39,20 @@ li:first-child::first-letter {
 
 }
 
+/* attribute selectors */
 a[title = "BCIT homepage"]
+/*a[href*="http://www.bcit"] also works*/
 {
     background-color: yellow;
+}
+
+/*Slide 14*/
+
+img
+{
+    float: left;
+}
+.below
+{
+    clear:both;
 }
