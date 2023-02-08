@@ -9,9 +9,9 @@ h2 + p
     color: red
 }
 
-.list > li
+.list > li /*direct children*/
 {
-    list-style-type: none;
+    list-style-type: none; /*list-style is also sufficient*/
     border-bottom: 1px solid grey
 
 }
