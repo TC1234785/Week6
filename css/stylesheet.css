@@ -15,4 +15,29 @@ h2 + p
     border-bottom: 1px solid grey
 
 }
+li a:link
 
+{
+    color: green
+}
+
+li a:visited
+{
+    color: red
+}
+
+li a:hover
+{
+    color:pink
+}
+
+li:first-child::first-letter {
+    font-weight: bold;
+    font-size: 1.2rem
+
+}
+
+a[title = "BCIT homepage"]
+{
+    background-color: yellow;
+}
